@@ -5,10 +5,6 @@ namespace BookStoreApp.Api.Data;
 
 public partial class Author
 {
-    public Author() 
-    {
-        Books = new HashSet<Book>();
-    }
     public int Id { get; set; }
 
     public string? FristName { get; set; }
