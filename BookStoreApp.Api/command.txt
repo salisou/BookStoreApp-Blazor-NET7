@@ -1,0 +1,5 @@
+﻿Creazione delle Tabelle 
+	Scaffold-DbContext 'Server=localhost\SQLEXPRESS; Database=BookStoreDb;Trusted_Connection=True; TrustServerCertificate=True' Microsoft.EntityFrameworkCore.SqlServer -ContextDir Data -OutputDir Data
+In caso di aggiunta di Table (classe) 
+	Add-Migration il nome della tabella 
+	Remove-Migration per cancellare la migration
